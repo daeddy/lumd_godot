@@ -11,8 +11,15 @@ config_version=5
 [application]
 
 config/name="LUMD_godot"
+run/main_scene="uid://d1s2v2gqcw8bg"
 config/features=PackedStringArray("4.4", "GL Compatibility")
 config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_width=1440
+window/size/viewport_height=1440
+window/stretch/mode="viewport"
 
 [editor]
 
